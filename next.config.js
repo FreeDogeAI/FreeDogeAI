@@ -5,8 +5,9 @@ const nextConfig = {
   images: {
     unoptimized: true,
   },
-  basePath: '/FreeDogeAI',  // ← BU SATIR ÇOK ÖNEMLİ!
-  assetPrefix: '/FreeDogeAI/',
+  // BU SATIRLARI SİL veya BOŞ BIRAK:
+  // basePath: '',     ← BU SATIR OLMAMALI VEYA BOŞ OLMALI
+  // assetPrefix: '',  ← BU SATIR OLMAMALI VEYA BOŞ OLMALI
   trailingSlash: true,
 }
 
