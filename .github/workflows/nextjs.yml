@@ -40,7 +40,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          # BU ÇOK ÖNEMLİ: .next/standalone/.next yolunu kullan
+          # DEĞİŞTİRDİM: .next KULLAN
           path: .next
 
   deploy:
